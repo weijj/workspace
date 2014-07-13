@@ -3066,3 +3066,7 @@ java.lang.NullPointerException: null
 2014-07-13 20:06:42,755 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2014-07-13 20:06:42,757 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2014-07-13 20:06:42,758 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-07-13 20:23:39,111 [Worker-290] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-13 20:23:39,112 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2014-07-13 20:23:39,114 [Worker-290] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-13 20:23:39,115 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
