@@ -1,0 +1,10 @@
+package com.taobao.roadrantz;
+
+import javax.validation.*;
+
+
+public class Student {
+	private String name;
+	private String password;
+	private String email;
+}

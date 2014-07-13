@@ -1,0 +1,24 @@
+package com.taobao.roadrantz.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.ui.Model;
+
+import com.taobao.roadrantz.Student;
+
+@Controller
+@RequestMapping("/student")
+public class StudentController {
+	
+	@RequestMapping(method=RequestMethod.GET, params = "register")
+	public String getRegister(Model model) {
+		model.addAttribute(new Student());
+		return "jsp/register";
+	}
+	
+	@RequestMapping(method=RequestMethod.POST)
+	public String handleRegister() {
+		
+	}
+}

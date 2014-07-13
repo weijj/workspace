@@ -1,0 +1,16 @@
+package com.taobao.roadrantz;
+
+import javax.validation.constraints.Size;
+import javax.validation.constraints.Pattern;
+
+
+public class Student {
+	@Size(min = 4, max = 6, message = "The length of name should be between 4 and 6")
+	private String name;
+	
+	@Pattern(regexp = "", message = "invalid password")
+	private String password;
+	
+	@Pattern(regexp = "", message = "invalid email")
+	private String email;
+}

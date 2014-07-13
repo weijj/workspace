@@ -1,0 +1,13 @@
+<%@ page contentType="text/html" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
+
+<html>
+<head><title>Add New Student</title></head>
+<body>
+	<h2 align = "center">Register</h2>
+	<sf:form method = "POST" modelAttribute = "com.taobao.roadrantz.Student">
+		
+	</sf:form>
+</body>
+</html>

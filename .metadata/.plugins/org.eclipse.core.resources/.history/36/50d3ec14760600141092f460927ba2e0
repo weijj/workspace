@@ -1,0 +1,7 @@
+package com.taobao.roadrantz;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class HomeController {
+	
+}

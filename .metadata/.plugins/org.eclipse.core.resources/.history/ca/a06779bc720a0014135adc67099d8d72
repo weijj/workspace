@@ -1,0 +1,11 @@
+package com.taobao.roadrantz;
+
+import javax.validation.*;
+
+
+public class Student {
+	@Size(min = 4, max = 6, message = "The length of name should be between 4 and 6")
+	private String name;
+	private String password;
+	private String email;
+}
